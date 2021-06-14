@@ -1,2 +1,3 @@
 # blog-code
-A Code to feature my blog content
+
+This repo will hold code snippets for my [Medium blog](https://marthaller-jr.medium.com/).
