@@ -1,18 +1,22 @@
-const mostFrequentAppearance = array => {
-    let mostFrequent = 1;
-    let occurrence = 0;
-    let item;
-    for (let i = 0; i < array.length; i++) {
-        for (let j = i; j < array.length; j++) {
-            if (array[i] === array[j]) {
-                occurrence++;
-            }
-            if (mostFrequent < occurrence) {
-                mostFrequent = occurrence;
-                item = array[i];
-            }
-        }
-        occurrence = 0;
-    }
-    return item;
-}
+
+
+
+
+import React from 'react';
+
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
+
+<Wrapper>
+  <Title>Hello World, this is my first styled component!</Title>
+</Wrapper>
